@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CppPrimer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch9_sequential_container">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch9_sequential_container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch9_sequential_container"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch9_sequential_container/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch9_sequential_container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch9_sequential_container/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch4_operator">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch4_operator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch4_operator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch4_operator/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch4_operator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch4_operator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_string">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_string"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_string/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_string" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_string/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_base_type">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_base_type" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_base_type"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_base_type/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_base_type" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_base_type/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch8_stream">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch8_stream" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch8_stream"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch8_stream/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch8_stream" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch8_stream/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch7_sales_data">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch7_sales_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch7_sales_data"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch7_sales_data/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch7_sales_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch7_sales_data/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch6_function">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch6_function" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch6_function"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch6_function/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch6_function" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch6_function/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_array">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_array"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_array/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_array/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_container">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_container"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_container/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_container/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_vector">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_vector"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_vector/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch3_vector/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppEssential">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CppEssential" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppEssential"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppEssential/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CppEssential" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 CppEssential/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch3/array.cpp">
+			<Option target="ch3_array"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch3/base_type.cpp">
+			<Option target="ch3_base_type"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch3/container.cpp">
+			<Option target="ch3_container"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch3/string.cpp">
+			<Option target="ch3_string"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch3/vector.cpp">
+			<Option target="ch3_vector"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch4/operator.cpp">
+			<Option target="ch4_operator"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch6/function.cpp">
+			<Option target="ch6_function"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Account.cpp">
+			<Option target="ch7_sales_data"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Account.h">
+			<Option target="ch7_sales_data"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Sales_data.cpp">
+			<Option target="ch7_sales_data"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Sales_data.h">
+			<Option target="ch7_sales_data"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Screen.h">
+			<Option target="ch7_sales_data"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/main.cpp">
+			<Option target="ch7_sales_data"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch8/stream.cpp">
+			<Option target="ch8_stream"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch9/sequential_container.cpp">
+			<Option target="ch9_sequential_container"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/main.cpp">
+			<Option target="CppEssential"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

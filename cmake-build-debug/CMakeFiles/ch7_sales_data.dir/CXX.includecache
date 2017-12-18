@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Account.cpp
+Account.h
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Account.h
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Account.h
+iostream
+-
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Sales_data.cpp
+Sales_data.h
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Sales_data.h
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Sales_data.h
+iostream
+-
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/main.cpp
+Sales_data.h
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Sales_data.h
+Account.h
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Account.h
+
