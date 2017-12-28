@@ -20,4 +20,6 @@ add_executable(ch7_sales_data ch7/Sales_data.cpp ch7/Sales_data.h ch7/main.cpp c
 
 add_executable(ch8_stream ch8/stream.cpp)
 
-add_executable(ch9_sequential_container ch9/sequential_container.cpp)
+add_executable(ch9_sequential_container ch9/sequential_container.cpp ch9/vector&string.cpp)
+
+add_executable(ch10_generic_algprithm ch10/generic_algo.cpp)

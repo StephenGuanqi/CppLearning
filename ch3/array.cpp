@@ -122,9 +122,9 @@ int main() {
 		for (auto col : row)
 			cout << col << endl;
 	/** row is not reference, changed to pointer **/
-	for (auto row : iarry)
-		for (auto col : row) // fatal error
-			;
+//	for (auto row : iarry)
+//		for (auto col : row) // fatal error
+//			;
 	/** When dealing with multi dimension array for-range, all auto are reference except for the innermost layer **/
 
 

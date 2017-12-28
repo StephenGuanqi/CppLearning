@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ch9_sequential_container.dir/ch9/sequential_container.cpp.o"
+  "CMakeFiles/ch9_sequential_container.dir/ch9/vector&string.cpp.o"
   "ch9_sequential_container.pdb"
   "ch9_sequential_container"
 )

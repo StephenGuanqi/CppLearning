@@ -16,11 +16,11 @@ struct PersonInfo {
 };
 
 /**
- * srteam is changing, can't declared as const
+ * stream is changing, can't declared as const
  */
 istream &func(istream &is) {
 	string buf;
-	while (cin >> buf) {
+	while (is >> buf) {
 		cout << buf << endl;
 	}
 	is.clear();
@@ -54,7 +54,7 @@ int main() {
 	while (getline(cin, line))
 	{
 		PersonInfo info;
-		record.clear();
+		record.clear(); // important because the while below set flags on the stream when end
 		record.str(line);
 		record >> info.name;
 		while (record >> word)

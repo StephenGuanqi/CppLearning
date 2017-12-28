@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ch10_generic_algprithm
+
+# Build rule for target.
+ch10_generic_algprithm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch10_generic_algprithm
+.PHONY : ch10_generic_algprithm
+
+# fast build rule for target.
+ch10_generic_algprithm/fast:
+	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/build
+.PHONY : ch10_generic_algprithm/fast
+
+#=============================================================================
 # Target rules for targets named ch9_sequential_container
 
 # Build rule for target.
@@ -252,6 +265,33 @@ CppEssential: cmake_check_build_system
 CppEssential/fast:
 	$(MAKE) -f CMakeFiles/CppEssential.dir/build.make CMakeFiles/CppEssential.dir/build
 .PHONY : CppEssential/fast
+
+ch10/generic_algo.o: ch10/generic_algo.cpp.o
+
+.PHONY : ch10/generic_algo.o
+
+# target to build an object file
+ch10/generic_algo.cpp.o:
+	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/ch10/generic_algo.cpp.o
+.PHONY : ch10/generic_algo.cpp.o
+
+ch10/generic_algo.i: ch10/generic_algo.cpp.i
+
+.PHONY : ch10/generic_algo.i
+
+# target to preprocess a source file
+ch10/generic_algo.cpp.i:
+	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/ch10/generic_algo.cpp.i
+.PHONY : ch10/generic_algo.cpp.i
+
+ch10/generic_algo.s: ch10/generic_algo.cpp.s
+
+.PHONY : ch10/generic_algo.s
+
+# target to generate assembly for a file
+ch10/generic_algo.cpp.s:
+	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/ch10/generic_algo.cpp.s
+.PHONY : ch10/generic_algo.cpp.s
 
 ch3/array.o: ch3/array.cpp.o
 
@@ -577,6 +617,33 @@ ch9/sequential_container.cpp.s:
 	$(MAKE) -f CMakeFiles/ch9_sequential_container.dir/build.make CMakeFiles/ch9_sequential_container.dir/ch9/sequential_container.cpp.s
 .PHONY : ch9/sequential_container.cpp.s
 
+ch9/vector&string.o: ch9/vector&string.cpp.o
+
+.PHONY : ch9/vector&string.o
+
+# target to build an object file
+ch9/vector&string.cpp.o:
+	$(MAKE) -f CMakeFiles/ch9_sequential_container.dir/build.make "CMakeFiles/ch9_sequential_container.dir/ch9/vector&string.cpp.o"
+.PHONY : ch9/vector&string.cpp.o
+
+ch9/vector&string.i: ch9/vector&string.cpp.i
+
+.PHONY : ch9/vector&string.i
+
+# target to preprocess a source file
+ch9/vector&string.cpp.i:
+	$(MAKE) -f CMakeFiles/ch9_sequential_container.dir/build.make "CMakeFiles/ch9_sequential_container.dir/ch9/vector&string.cpp.i"
+.PHONY : ch9/vector&string.cpp.i
+
+ch9/vector&string.s: ch9/vector&string.cpp.s
+
+.PHONY : ch9/vector&string.s
+
+# target to generate assembly for a file
+ch9/vector&string.cpp.s:
+	$(MAKE) -f CMakeFiles/ch9_sequential_container.dir/build.make "CMakeFiles/ch9_sequential_container.dir/ch9/vector&string.cpp.s"
+.PHONY : ch9/vector&string.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -611,6 +678,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... ch10_generic_algprithm"
 	@echo "... ch9_sequential_container"
 	@echo "... ch4_operator"
 	@echo "... ch3_string"
@@ -623,6 +691,9 @@ help:
 	@echo "... ch3_container"
 	@echo "... ch3_vector"
 	@echo "... CppEssential"
+	@echo "... ch10/generic_algo.o"
+	@echo "... ch10/generic_algo.i"
+	@echo "... ch10/generic_algo.s"
 	@echo "... ch3/array.o"
 	@echo "... ch3/array.i"
 	@echo "... ch3/array.s"
@@ -659,6 +730,9 @@ help:
 	@echo "... ch9/sequential_container.o"
 	@echo "... ch9/sequential_container.i"
 	@echo "... ch9/sequential_container.s"
+	@echo "... ch9/vector&string.o"
+	@echo "... ch9/vector&string.i"
+	@echo "... ch9/vector&string.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

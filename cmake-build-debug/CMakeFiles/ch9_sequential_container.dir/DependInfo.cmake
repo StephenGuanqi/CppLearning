@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch9/sequential_container.cpp" "/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch9_sequential_container.dir/ch9/sequential_container.cpp.o"
+  "/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch9/vector&string.cpp" "/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch9_sequential_container.dir/ch9/vector&string.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

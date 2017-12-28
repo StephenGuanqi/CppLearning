@@ -49,6 +49,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ch10_generic_algprithm.dir/DependInfo.cmake"
   "CMakeFiles/ch9_sequential_container.dir/DependInfo.cmake"
   "CMakeFiles/ch4_operator.dir/DependInfo.cmake"
   "CMakeFiles/ch3_string.dir/DependInfo.cmake"

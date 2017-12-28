@@ -1,4 +1,5 @@
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch10_generic_algprithm.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch9_sequential_container.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch4_operator.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch3_string.dir

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch10/generic_algo.cpp
+algorithm
+-
+numeric
+-
+vector
+-
+string
+-
+iostream
+-
+list
+-
+iterator
+-
+forward_list
+-
+functional
+-
+
