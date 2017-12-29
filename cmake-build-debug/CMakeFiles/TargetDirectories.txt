@@ -1,4 +1,5 @@
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch11_associative_container.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch10_generic_algprithm.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch9_sequential_container.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch4_operator.dir
@@ -10,5 +11,6 @@
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch3_array.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch3_container.dir
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch12_dynamic_memory.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/ch3_vector.dir
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles/CppEssential.dir

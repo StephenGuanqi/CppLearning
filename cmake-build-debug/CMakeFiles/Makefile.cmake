@@ -49,6 +49,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ch11_associative_container.dir/DependInfo.cmake"
   "CMakeFiles/ch10_generic_algprithm.dir/DependInfo.cmake"
   "CMakeFiles/ch9_sequential_container.dir/DependInfo.cmake"
   "CMakeFiles/ch4_operator.dir/DependInfo.cmake"
@@ -59,6 +60,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ch6_function.dir/DependInfo.cmake"
   "CMakeFiles/ch3_array.dir/DependInfo.cmake"
   "CMakeFiles/ch3_container.dir/DependInfo.cmake"
+  "CMakeFiles/ch12_dynamic_memory.dir/DependInfo.cmake"
   "CMakeFiles/ch3_vector.dir/DependInfo.cmake"
   "CMakeFiles/CppEssential.dir/DependInfo.cmake"
   )

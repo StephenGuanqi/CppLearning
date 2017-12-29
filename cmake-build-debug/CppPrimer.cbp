@@ -27,6 +27,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ch11_associative_container">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch11_associative_container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch11_associative_container"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch11_associative_container/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch11_associative_container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch11_associative_container/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ch10_generic_algprithm">
 				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch10_generic_algprithm" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
@@ -457,6 +499,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ch12_dynamic_memory">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch12_dynamic_memory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch12_dynamic_memory"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch12_dynamic_memory/fast">
+				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch12_dynamic_memory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch12_dynamic_memory/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ch3_vector">
 				<Option output="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/ch3_vector" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug"/>
@@ -542,8 +626,20 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/Sales_item.h">
+			<Option target="ch10_generic_algprithm"/>
+		</Unit>
 		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch10/generic_algo.cpp">
 			<Option target="ch10_generic_algprithm"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch10/iterator.cpp">
+			<Option target="ch10_generic_algprithm"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch11/associative-container.cpp">
+			<Option target="ch11_associative_container"/>
+		</Unit>
+		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch12/dynamic_memory.cpp">
+			<Option target="ch12_dynamic_memory"/>
 		</Unit>
 		<Unit filename="/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch3/array.cpp">
 			<Option target="ch3_array"/>

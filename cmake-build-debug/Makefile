@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ch11_associative_container
+
+# Build rule for target.
+ch11_associative_container: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch11_associative_container
+.PHONY : ch11_associative_container
+
+# fast build rule for target.
+ch11_associative_container/fast:
+	$(MAKE) -f CMakeFiles/ch11_associative_container.dir/build.make CMakeFiles/ch11_associative_container.dir/build
+.PHONY : ch11_associative_container/fast
+
+#=============================================================================
 # Target rules for targets named ch10_generic_algprithm
 
 # Build rule for target.
@@ -241,6 +254,19 @@ ch3_container/fast:
 .PHONY : ch3_container/fast
 
 #=============================================================================
+# Target rules for targets named ch12_dynamic_memory
+
+# Build rule for target.
+ch12_dynamic_memory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch12_dynamic_memory
+.PHONY : ch12_dynamic_memory
+
+# fast build rule for target.
+ch12_dynamic_memory/fast:
+	$(MAKE) -f CMakeFiles/ch12_dynamic_memory.dir/build.make CMakeFiles/ch12_dynamic_memory.dir/build
+.PHONY : ch12_dynamic_memory/fast
+
+#=============================================================================
 # Target rules for targets named ch3_vector
 
 # Build rule for target.
@@ -292,6 +318,87 @@ ch10/generic_algo.s: ch10/generic_algo.cpp.s
 ch10/generic_algo.cpp.s:
 	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/ch10/generic_algo.cpp.s
 .PHONY : ch10/generic_algo.cpp.s
+
+ch10/iterator.o: ch10/iterator.cpp.o
+
+.PHONY : ch10/iterator.o
+
+# target to build an object file
+ch10/iterator.cpp.o:
+	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/ch10/iterator.cpp.o
+.PHONY : ch10/iterator.cpp.o
+
+ch10/iterator.i: ch10/iterator.cpp.i
+
+.PHONY : ch10/iterator.i
+
+# target to preprocess a source file
+ch10/iterator.cpp.i:
+	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/ch10/iterator.cpp.i
+.PHONY : ch10/iterator.cpp.i
+
+ch10/iterator.s: ch10/iterator.cpp.s
+
+.PHONY : ch10/iterator.s
+
+# target to generate assembly for a file
+ch10/iterator.cpp.s:
+	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/ch10/iterator.cpp.s
+.PHONY : ch10/iterator.cpp.s
+
+ch11/associative-container.o: ch11/associative-container.cpp.o
+
+.PHONY : ch11/associative-container.o
+
+# target to build an object file
+ch11/associative-container.cpp.o:
+	$(MAKE) -f CMakeFiles/ch11_associative_container.dir/build.make CMakeFiles/ch11_associative_container.dir/ch11/associative-container.cpp.o
+.PHONY : ch11/associative-container.cpp.o
+
+ch11/associative-container.i: ch11/associative-container.cpp.i
+
+.PHONY : ch11/associative-container.i
+
+# target to preprocess a source file
+ch11/associative-container.cpp.i:
+	$(MAKE) -f CMakeFiles/ch11_associative_container.dir/build.make CMakeFiles/ch11_associative_container.dir/ch11/associative-container.cpp.i
+.PHONY : ch11/associative-container.cpp.i
+
+ch11/associative-container.s: ch11/associative-container.cpp.s
+
+.PHONY : ch11/associative-container.s
+
+# target to generate assembly for a file
+ch11/associative-container.cpp.s:
+	$(MAKE) -f CMakeFiles/ch11_associative_container.dir/build.make CMakeFiles/ch11_associative_container.dir/ch11/associative-container.cpp.s
+.PHONY : ch11/associative-container.cpp.s
+
+ch12/dynamic_memory.o: ch12/dynamic_memory.cpp.o
+
+.PHONY : ch12/dynamic_memory.o
+
+# target to build an object file
+ch12/dynamic_memory.cpp.o:
+	$(MAKE) -f CMakeFiles/ch12_dynamic_memory.dir/build.make CMakeFiles/ch12_dynamic_memory.dir/ch12/dynamic_memory.cpp.o
+.PHONY : ch12/dynamic_memory.cpp.o
+
+ch12/dynamic_memory.i: ch12/dynamic_memory.cpp.i
+
+.PHONY : ch12/dynamic_memory.i
+
+# target to preprocess a source file
+ch12/dynamic_memory.cpp.i:
+	$(MAKE) -f CMakeFiles/ch12_dynamic_memory.dir/build.make CMakeFiles/ch12_dynamic_memory.dir/ch12/dynamic_memory.cpp.i
+.PHONY : ch12/dynamic_memory.cpp.i
+
+ch12/dynamic_memory.s: ch12/dynamic_memory.cpp.s
+
+.PHONY : ch12/dynamic_memory.s
+
+# target to generate assembly for a file
+ch12/dynamic_memory.cpp.s:
+	$(MAKE) -f CMakeFiles/ch12_dynamic_memory.dir/build.make CMakeFiles/ch12_dynamic_memory.dir/ch12/dynamic_memory.cpp.s
+.PHONY : ch12/dynamic_memory.cpp.s
 
 ch3/array.o: ch3/array.cpp.o
 
@@ -678,6 +785,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... ch11_associative_container"
 	@echo "... ch10_generic_algprithm"
 	@echo "... ch9_sequential_container"
 	@echo "... ch4_operator"
@@ -689,11 +797,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... ch3_array"
 	@echo "... ch3_container"
+	@echo "... ch12_dynamic_memory"
 	@echo "... ch3_vector"
 	@echo "... CppEssential"
 	@echo "... ch10/generic_algo.o"
 	@echo "... ch10/generic_algo.i"
 	@echo "... ch10/generic_algo.s"
+	@echo "... ch10/iterator.o"
+	@echo "... ch10/iterator.i"
+	@echo "... ch10/iterator.s"
+	@echo "... ch11/associative-container.o"
+	@echo "... ch11/associative-container.i"
+	@echo "... ch11/associative-container.s"
+	@echo "... ch12/dynamic_memory.o"
+	@echo "... ch12/dynamic_memory.i"
+	@echo "... ch12/dynamic_memory.s"
 	@echo "... ch3/array.o"
 	@echo "... ch3/array.i"
 	@echo "... ch3/array.s"

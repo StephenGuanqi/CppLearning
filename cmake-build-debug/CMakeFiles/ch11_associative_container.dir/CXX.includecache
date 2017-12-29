@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch11/associative-container.cpp
+map
+-
+set
+-
+unordered_map
+-
+unordered_set
+-
+string
+-
+iterator
+-
+list
+-
+algorithm
+-
+numeric
+-
+iostream
+-
+fstream
+-
+vector
+-
+sstream
+-
+functional
+-
+sstream
+-
+../ch7/Sales_data.h
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Sales_data.h
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch7/Sales_data.h
+iostream
+-
+

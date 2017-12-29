@@ -192,6 +192,13 @@ int main() {
 	/**
 	 * end can't be stored, must invoked everytime
 	 */
+
+	/**
+	 * Important:
+	 * forward_list and list
+	 * insertion : all iterator, pointer, reference still in effect
+	 * deletion:  all other iterator, pointer, reference still in effect
+	 */
 }
 
 void removeEvenAndDoubleOdds(list<int> &data) {

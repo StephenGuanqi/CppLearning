@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/Sales_item.h
+iostream
+-
+string
+-
+
 /Users/guanqiy/workspace/CLionProjects/CppPrimer/ch10/generic_algo.cpp
 algorithm
 -
@@ -25,4 +31,28 @@ forward_list
 -
 functional
 -
+
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/ch10/iterator.cpp
+algorithm
+-
+numeric
+-
+vector
+-
+string
+-
+iostream
+-
+list
+-
+iterator
+-
+fstream
+-
+forward_list
+-
+functional
+-
+../Sales_item.h
+/Users/guanqiy/workspace/CLionProjects/CppPrimer/Sales_item.h
 

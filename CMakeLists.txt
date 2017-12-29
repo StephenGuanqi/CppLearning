@@ -22,4 +22,8 @@ add_executable(ch8_stream ch8/stream.cpp)
 
 add_executable(ch9_sequential_container ch9/sequential_container.cpp ch9/vector&string.cpp)
 
-add_executable(ch10_generic_algprithm ch10/generic_algo.cpp)
+add_executable(ch10_generic_algprithm ch10/generic_algo.cpp ch10/iterator.cpp Sales_item.h)
+
+add_executable(ch11_associative_container ch11/associative-container.cpp)
+
+add_executable(ch12_dynamic_memory ch12/dynamic_memory.cpp)

@@ -135,15 +135,7 @@ void for_each_test() {
 }
 
 
-
-
-void remove_odds(forward_list<int>& flist)
-{
-	auto is_odd = [] (int i) { return i & 0x1; };
-	remove_if(flist.begin(), flist.end(), is_odd);
-}
-
-int main() {
+void test() {
 	int ia[] = {27, 210, 12, 47, 19, 5, 5, 83};
 	int val = 83;
 	int *result = find(begin(ia), end(ia), val);
@@ -282,9 +274,6 @@ int main() {
 	sort(words.begin(), words.end(), isShorter);
 	sort(words.begin(), words.end(), bind(isShorter, placeholders::_2, placeholders::_1));
 
-	/****************************************************/
-
-	/****************************************************/
 }
 
 bool predicate(const std::string &s)

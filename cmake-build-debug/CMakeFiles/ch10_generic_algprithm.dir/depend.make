@@ -3,3 +3,6 @@
 
 CMakeFiles/ch10_generic_algprithm.dir/ch10/generic_algo.cpp.o: ../ch10/generic_algo.cpp
 
+CMakeFiles/ch10_generic_algprithm.dir/ch10/iterator.cpp.o: ../Sales_item.h
+CMakeFiles/ch10_generic_algprithm.dir/ch10/iterator.cpp.o: ../ch10/iterator.cpp
+

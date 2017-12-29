@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /Users/guanqiy/workspace/CLionProjects/CppPrimer
 CMAKE_BINARY_DIR = /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/ch11_associative_container.dir
+
+# All Build rule for target.
+CMakeFiles/ch11_associative_container.dir/all:
+	$(MAKE) -f CMakeFiles/ch11_associative_container.dir/build.make CMakeFiles/ch11_associative_container.dir/depend
+	$(MAKE) -f CMakeFiles/ch11_associative_container.dir/build.make CMakeFiles/ch11_associative_container.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target ch11_associative_container"
+.PHONY : CMakeFiles/ch11_associative_container.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch11_associative_container.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch11_associative_container.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch11_associative_container.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ch11_associative_container.dir/rule
+
+# Convenience name for target.
+ch11_associative_container: CMakeFiles/ch11_associative_container.dir/rule
+
+.PHONY : ch11_associative_container
+
+# clean rule for target.
+CMakeFiles/ch11_associative_container.dir/clean:
+	$(MAKE) -f CMakeFiles/ch11_associative_container.dir/build.make CMakeFiles/ch11_associative_container.dir/clean
+.PHONY : CMakeFiles/ch11_associative_container.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch11_associative_container.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ch10_generic_algprithm.dir
 
 # All Build rule for target.
 CMakeFiles/ch10_generic_algprithm.dir/all:
 	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/depend
 	$(MAKE) -f CMakeFiles/ch10_generic_algprithm.dir/build.make CMakeFiles/ch10_generic_algprithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target ch10_generic_algprithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target ch10_generic_algprithm"
 .PHONY : CMakeFiles/ch10_generic_algprithm.dir/all
 
 # Include target in all.
@@ -76,7 +113,7 @@ all: CMakeFiles/ch10_generic_algprithm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ch10_generic_algprithm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch10_generic_algprithm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ch10_generic_algprithm.dir/rule
@@ -103,7 +140,7 @@ clean: CMakeFiles/ch10_generic_algprithm.dir/clean
 CMakeFiles/ch9_sequential_container.dir/all:
 	$(MAKE) -f CMakeFiles/ch9_sequential_container.dir/build.make CMakeFiles/ch9_sequential_container.dir/depend
 	$(MAKE) -f CMakeFiles/ch9_sequential_container.dir/build.make CMakeFiles/ch9_sequential_container.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target ch9_sequential_container"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=30,31,32 "Built target ch9_sequential_container"
 .PHONY : CMakeFiles/ch9_sequential_container.dir/all
 
 # Include target in all.
@@ -140,7 +177,7 @@ clean: CMakeFiles/ch9_sequential_container.dir/clean
 CMakeFiles/ch4_operator.dir/all:
 	$(MAKE) -f CMakeFiles/ch4_operator.dir/build.make CMakeFiles/ch4_operator.dir/depend
 	$(MAKE) -f CMakeFiles/ch4_operator.dir/build.make CMakeFiles/ch4_operator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ch4_operator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target ch4_operator"
 .PHONY : CMakeFiles/ch4_operator.dir/all
 
 # Include target in all.
@@ -177,7 +214,7 @@ clean: CMakeFiles/ch4_operator.dir/clean
 CMakeFiles/ch3_string.dir/all:
 	$(MAKE) -f CMakeFiles/ch3_string.dir/build.make CMakeFiles/ch3_string.dir/depend
 	$(MAKE) -f CMakeFiles/ch3_string.dir/build.make CMakeFiles/ch3_string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target ch3_string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target ch3_string"
 .PHONY : CMakeFiles/ch3_string.dir/all
 
 # Include target in all.
@@ -214,7 +251,7 @@ clean: CMakeFiles/ch3_string.dir/clean
 CMakeFiles/ch3_base_type.dir/all:
 	$(MAKE) -f CMakeFiles/ch3_base_type.dir/build.make CMakeFiles/ch3_base_type.dir/depend
 	$(MAKE) -f CMakeFiles/ch3_base_type.dir/build.make CMakeFiles/ch3_base_type.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ch3_base_type"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target ch3_base_type"
 .PHONY : CMakeFiles/ch3_base_type.dir/all
 
 # Include target in all.
@@ -251,7 +288,7 @@ clean: CMakeFiles/ch3_base_type.dir/clean
 CMakeFiles/ch8_stream.dir/all:
 	$(MAKE) -f CMakeFiles/ch8_stream.dir/build.make CMakeFiles/ch8_stream.dir/depend
 	$(MAKE) -f CMakeFiles/ch8_stream.dir/build.make CMakeFiles/ch8_stream.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target ch8_stream"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target ch8_stream"
 .PHONY : CMakeFiles/ch8_stream.dir/all
 
 # Include target in all.
@@ -288,7 +325,7 @@ clean: CMakeFiles/ch8_stream.dir/clean
 CMakeFiles/ch7_sales_data.dir/all:
 	$(MAKE) -f CMakeFiles/ch7_sales_data.dir/build.make CMakeFiles/ch7_sales_data.dir/depend
 	$(MAKE) -f CMakeFiles/ch7_sales_data.dir/build.make CMakeFiles/ch7_sales_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=19,20,21,22 "Built target ch7_sales_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=24,25,26,27 "Built target ch7_sales_data"
 .PHONY : CMakeFiles/ch7_sales_data.dir/all
 
 # Include target in all.
@@ -325,7 +362,7 @@ clean: CMakeFiles/ch7_sales_data.dir/clean
 CMakeFiles/ch6_function.dir/all:
 	$(MAKE) -f CMakeFiles/ch6_function.dir/build.make CMakeFiles/ch6_function.dir/depend
 	$(MAKE) -f CMakeFiles/ch6_function.dir/build.make CMakeFiles/ch6_function.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target ch6_function"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target ch6_function"
 .PHONY : CMakeFiles/ch6_function.dir/all
 
 # Include target in all.
@@ -362,7 +399,7 @@ clean: CMakeFiles/ch6_function.dir/clean
 CMakeFiles/ch3_array.dir/all:
 	$(MAKE) -f CMakeFiles/ch3_array.dir/build.make CMakeFiles/ch3_array.dir/depend
 	$(MAKE) -f CMakeFiles/ch3_array.dir/build.make CMakeFiles/ch3_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ch3_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target ch3_array"
 .PHONY : CMakeFiles/ch3_array.dir/all
 
 # Include target in all.
@@ -399,7 +436,7 @@ clean: CMakeFiles/ch3_array.dir/clean
 CMakeFiles/ch3_container.dir/all:
 	$(MAKE) -f CMakeFiles/ch3_container.dir/build.make CMakeFiles/ch3_container.dir/depend
 	$(MAKE) -f CMakeFiles/ch3_container.dir/build.make CMakeFiles/ch3_container.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target ch3_container"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target ch3_container"
 .PHONY : CMakeFiles/ch3_container.dir/all
 
 # Include target in all.
@@ -430,13 +467,50 @@ clean: CMakeFiles/ch3_container.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ch12_dynamic_memory.dir
+
+# All Build rule for target.
+CMakeFiles/ch12_dynamic_memory.dir/all:
+	$(MAKE) -f CMakeFiles/ch12_dynamic_memory.dir/build.make CMakeFiles/ch12_dynamic_memory.dir/depend
+	$(MAKE) -f CMakeFiles/ch12_dynamic_memory.dir/build.make CMakeFiles/ch12_dynamic_memory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target ch12_dynamic_memory"
+.PHONY : CMakeFiles/ch12_dynamic_memory.dir/all
+
+# Include target in all.
+all: CMakeFiles/ch12_dynamic_memory.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch12_dynamic_memory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch12_dynamic_memory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ch12_dynamic_memory.dir/rule
+
+# Convenience name for target.
+ch12_dynamic_memory: CMakeFiles/ch12_dynamic_memory.dir/rule
+
+.PHONY : ch12_dynamic_memory
+
+# clean rule for target.
+CMakeFiles/ch12_dynamic_memory.dir/clean:
+	$(MAKE) -f CMakeFiles/ch12_dynamic_memory.dir/build.make CMakeFiles/ch12_dynamic_memory.dir/clean
+.PHONY : CMakeFiles/ch12_dynamic_memory.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ch12_dynamic_memory.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ch3_vector.dir
 
 # All Build rule for target.
 CMakeFiles/ch3_vector.dir/all:
 	$(MAKE) -f CMakeFiles/ch3_vector.dir/build.make CMakeFiles/ch3_vector.dir/depend
 	$(MAKE) -f CMakeFiles/ch3_vector.dir/build.make CMakeFiles/ch3_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ch3_vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/guanqiy/workspace/CLionProjects/CppPrimer/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target ch3_vector"
 .PHONY : CMakeFiles/ch3_vector.dir/all
 
 # Include target in all.
