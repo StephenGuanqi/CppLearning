@@ -10,6 +10,9 @@ Sales_data& Sales_data::combine(const Sales_data &rhs) {
 	units_sold += rhs.units_sold; // units_sold and revenue are governed by implicit this
 	revenue += rhs.revenue;
 	return *this; // can call the function concatenate
+	/**
+	 * return the object who calls this function
+	 */
 }
 
 istream &read(istream &is, Sales_data &item) {

@@ -32,7 +32,12 @@ void print2(const int ia[], size_t size) {
 	}
 }
 
-// has to be sure of length of array
+// has to be sure of length of array, argument is array reference
+/**
+ * only way to know exact length of passed in array
+ * if const int[10], it only express how long we expect, the actual value not necessarily 10
+ * so it's just a pointer
+ */
 void print3(int (&arr)[10]) {
 	for (auto elem : arr) {
 		cout << elem << endl;
@@ -91,6 +96,19 @@ vector<string> process() {
 	 * container can be copied
 	 * but array cant be copied, so a function can't return an array
 	 */
+
+	/**
+	 * but we can return array pointer
+	 * int (*func(int i))[10]
+	 * or
+	 * auto func(int i) -> int(*)[10]
+	 * or
+	 * int odd[] = {1, 2, 3}
+	 * decltype(odd) *arrPtr(int i) {
+	 *      ....
+	 * }
+	 * auto and decltype usage here can also be applied to the pointer to function
+	 */
 }
 
 int main() {
@@ -103,9 +121,16 @@ int main() {
 	print(begin(j), end(j));
 
 	/**
-	 * objects in initializer list are always const
-	 * use condition: we dont know how much parameters we need for the error print function
-	 * so use initializer_list
+	 * use const reference as possible as you can, or:
+	 * can't passed in const object, can't passed in literal value
+	 * for string::size_type, can alsp passed in as reference
+	 */
+
+	/**
+	 * objects in initializer list are always always const, we can never change the value in list
+	 * use condition: we dont know how much parameters we need for the function
+	 * if all parameters same type: so use initializer_list
+	 * if not: changeable parameter template
 	 */
 	initializer_list<string> ls;
 	string expect = "expect";
@@ -130,6 +155,16 @@ int main() {
 	/**
 	 * Function Overloading: function-matching ---> overload resolution
 	 * No local declaration of function, otherwise previous declaration will be overwrite
+	 */
+
+	/**
+	 * const overloading:
+	 * top level const in parameter diff is not function overloading
+	 * if parameter is pointer or reference, low-level const can be overloaded
+	 */
+
+	/**
+	 * default argument function declaration put in the header file, one function only declared once
 	 */
 
 	/**

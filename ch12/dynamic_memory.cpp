@@ -63,5 +63,14 @@ int main() {
 	 * 2. program don't know the exact type of needed objects
 	 * 3. program needs to shared data across multiple objects
 	 */
+	vector<string> v1;
+	{
+		vector<string> v2 = {"a", "an", "the"};
+		v1 = v2;
+		/**
+		 * v2 destroyed, elements inside destroyed, v1 has v2's copy
+		 */
+	}
+
 
 }

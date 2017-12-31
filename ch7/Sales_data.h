@@ -8,6 +8,25 @@
 #include <iostream>
 
 /**
+ * When a class being constructed using default constructor
+ * member with in-class initializer will be used to initialize the member    a{, , ..}   or a = ....
+ * member without the initial value will be default initialized (0, "", ...)
+ *
+ * If class doesn't define constructor implicitly, compiler implicitly create synthesized default constructor:
+ * 1. if has in-class initial value, used to initialize
+ * 2. orherwise default initialize
+ *
+ * Some class can't depend on this synthesized default constructor:
+ * 1.  if have other constructor, has to use =default()
+ * 2.  if class has compund type like pointer, array or other class, either in-class initialized or define another
+ * constructor. Only all member in-class initialized we can say the class is initialized
+ * 3.  Sometimes compiler can't even make synthesized defaylt constructor
+ *
+ * default constructor with initialization list: better than in-class + default initialization
+ * if compiler doesn't support in-class initialization. IF online judge, just in-class initialize would be fine
+ */
+
+/**
  * 1. never use 'using' declaration in a header file
  * 2. declare all friends together at the class beginning or end
  * 3. all member public, use struct, otherwise use class
@@ -16,8 +35,10 @@
  * 6. synthesized default constructor ---> in-class initializer or default initializer
  * 7. compiler will only create default constructor when there is no constructor definition
  * 8. If your compiler doesn't support in-class initializer, use constructor initialize list
+ * 9. Member initialization list has higher priority than default member initializer
  * 9. construct, assign(copy), deconstruct, compiler will generate three versions for the class to
  * deal with every member of the class  (vector and string safer and more efficient)
+ * 11. 'this' is implicitly defined const pointer.
  */
 class Sales_data {
 // declare friend for non-member function to access non-public member
@@ -64,6 +85,7 @@ extern std::ostream &print(std::ostream&, const Sales_data&);
  * Sales_data::isbn(&total)
  *
  * we can't invoke non-const member function on a const object
+ * Salesdata *const this -> const Salesdata //wrong
  * but we can call const member function on a non-const object
  */
 

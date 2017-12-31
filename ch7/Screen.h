@@ -12,13 +12,18 @@
  * if a const member function return *this as a reference, the return type would be a const reference type
  * can't myScreen.display().set('#');
  *
+ * Solution: const based overloading (diff in member function const or not, underlying reason ch6/overloading ):
  * when a member function call another function, this pointer is implicitly passed
+ * Screen myScreen(5, 3);
  * const Screen blank(5, 3);
- * blank(cout); // const object can only call const member function
- * Screen myScreen(3, 5);
  * myScreen.set('#').display(cout); // non-const object call non-const member function
+ * blank.display(cout);             // const object invoke const member function
  */
 
+/**
+ * friend relationship between class
+ * friendship doesn't transmit.  window_mgr is screen's friend,  A is wondow_mgr's friend, A can't access Screen
+ */
 // define member function as friend
 class Screen; // forward declaration, Screen is a incomplete type now
 class Window_mgr {
@@ -27,7 +32,7 @@ public:
 	void clear(ScreenIdx);
 	ScreenIdx addScreen(const Screen&);
 private:
-	std::vector<Screen> screens;
+	std::vector<Screen> screens{Screen(24, 80, ' ')};
 };
 
 class Screen {
